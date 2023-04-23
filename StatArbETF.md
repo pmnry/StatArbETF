@@ -307,7 +307,11 @@ z_rets = (rets - mu)/sig
 
 
     
+<<<<<<< HEAD:StatArbETF.md
 ![png](StatArbETF_files/StatArbETF_15_1.png)
+=======
+![png](README_files\output_15_1.png)
+>>>>>>> 6c4d9fb1293103d48914df0e970b92b6621e0ef9:README.md
     
 
 
