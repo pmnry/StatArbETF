@@ -307,7 +307,7 @@ z_rets = (rets - mu)/sig
 
 
     
-![png](output_15_1.png)
+![png](README_files\output_15_1.png)
     
 
 
