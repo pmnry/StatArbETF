@@ -307,7 +307,7 @@ z_rets = (rets - mu)/sig
 
 
     
-![png](output_15_1.png)
+![png](StatArbETF_files/StatArbETF_15_1.png)
     
 
 
@@ -330,7 +330,7 @@ z_rets['AAPL'].plot.hist(bins=20)
 
 
     
-![png](output_17_1.png)
+![png](StatArbETF_files/StatArbETF_17_1.png)
     
 
 
@@ -360,7 +360,7 @@ sns.barplot(data=explained_variance_ratio, x='PC', y='RatioVarianceExplained')
 
 
     
-![png](output_20_1.png)
+![png](StatArbETF_files/StatArbETF_20_1.png)
     
 
 
@@ -385,7 +385,7 @@ eigenptf[['CumRets','SPYCumRets']].plot()
 
 
     
-![png](output_22_1.png)
+![png](StatArbETF_files/StatArbETF_22_1.png)
     
 
 
@@ -403,7 +403,7 @@ pd.DataFrame(zip(rets.columns, pca.components_[0]), columns=['Tickers', 'Eigenve
 
 
     
-![png](output_23_1.png)
+![png](StatArbETF_files/StatArbETF_23_1.png)
     
 
 
@@ -709,7 +709,7 @@ sns.heatmap(corrMat)
 
 
     
-![png](output_31_1.png)
+![png](StatArbETF_files/StatArbETF_31_1.png)
     
 
 
@@ -803,7 +803,7 @@ res.resid.plot()
 
 
     
-![png](output_37_1.png)
+![png](StatArbETF_files/StatArbETF_37_1.png)
     
 
 
@@ -826,7 +826,7 @@ X_process.plot()
 
 
     
-![png](output_40_1.png)
+![png](StatArbETF_files/StatArbETF_40_1.png)
     
 
 
@@ -919,7 +919,7 @@ res_df['s_score'].plot()
 
 
     
-![png](output_47_1.png)
+![png](StatArbETF_files/StatArbETF_47_1.png)
     
 
 
@@ -1289,7 +1289,7 @@ res.plot()
 
 
     
-![png](output_60_1.png)
+![png](StatArbETF_files/StatArbETF_60_1.png)
     
 
 
